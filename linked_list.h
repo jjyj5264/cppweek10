@@ -4,12 +4,12 @@
 #include "node.h"
 
 class LinkedList {
-public:
+  public:
   LinkedList();
   ~LinkedList();
   void print();
 
-protected:
+  protected:
   void insert(int index, int value);
   int get(int index);
   void remove(int index);
